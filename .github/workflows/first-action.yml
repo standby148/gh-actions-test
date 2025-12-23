@@ -8,3 +8,5 @@ jobs:
         run: echo "Hello World"
       - name: Print goodbye
         run: echo "Goodbye"
+      - name: output to Job summary pannel
+        run: echo "some info" >> $GITHUB_STEP_SUMMARY
